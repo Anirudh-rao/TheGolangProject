@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	//To Make Chanel
 	messages := make(chan string)
 	// <- operator sends message to the channel
 	go func() {
